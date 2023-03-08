@@ -1,0 +1,32 @@
+#Input the number of (one-wheeled unicycles, the number of (two-wheeled) scooters and the number of (three-wheeled) tricycles.
+
+#Output the total number of wheels on my racetrack!
+
+#Input Format
+
+#Three non-negative whole numbers on separate lines
+
+#Output Format
+
+#A single non-negative whole number
+
+#Constraints
+
+#All inputs will be less than 100
+
+
+
+def answer():
+ n1=-1
+ while n1<0 or n1>100:
+  n1 = int(input("number of one wheel cycle: "))
+ n2=-1
+ while n2<0 or n2>100:
+  n2 = int(input("number of two wheel cycle: "))
+ n3=-1
+ while n3<0 or n3>100: 
+  n3 = int(input("number of three wheel cycle: "))
+ sum=n1+n2*2+n3*3
+ return sum 
+  
+print(answer())
