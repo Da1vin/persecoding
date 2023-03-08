@@ -1,0 +1,17 @@
+#LOST IT (Round 1)
+
+#Input five whole numbers each representing amounts of money in dollars
+
+#Input a sixth number from 1-5 specifying which one of these five amounts you have lost.
+
+#Output how much money you have left as dollars e.g. $25
+
+#Input Format
+
+#Five positive whole numbers, one on each line
+#A final sixth number (1-5)
+ 
+#Output Format
+
+#An amount of money with $ formatting for the amount you have left
+
