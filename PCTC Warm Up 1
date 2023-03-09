@@ -15,3 +15,19 @@
 
 #An amount of money with $ formatting for the amount you have left
 
+numlist = []
+sum=0 
+for i in range(5):
+  number = int(input("Enter a whole number: "))
+  numlist.append(number)
+   
+num6 = int(input("enter a number between 1 and 5: "))
+while num6 < 1 or num6 > 5:
+  print("Error message. ")
+  num6 = int(input("enter a number between 1 and 5: "))
+print(numlist)
+print(numlist[num6-1])
+numlist.remove(numlist[num6-1])
+for i in range (len(numlist)):
+  sum=numlist[i-1]+sum
+print(sum)  
