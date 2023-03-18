@@ -1,0 +1,28 @@
+PCTC Warm Up 2Review mode
+BIRTHDAY BADGE (Round 1)
+
+It is someone's birthday soon. Input how old they will be and the symbol they would like to use and output a constructed birthday age badge with a border constructed from their symbol.
+
+For example if the inputs are:
+
+65
+#
+Then the ouput (the badge) must look like this:
+
+####
+#65#
+####
+Input Format
+
+A first line specifying their upcoming age
+A second line specifying a single character symbol to use for the badge border
+ 
+Output Format
+
+3 lines of text in the form shown above
+
+Constraints
+
+The age will be maximum 3 digits long
+
+
